@@ -1,0 +1,28 @@
+/* posição da frase antes de pesquisar vídeo */
+.loading {
+    padding-top: 20px;
+}
+
+/* espaçamento do vídeo selecionado */
+.embed {
+    padding-top: 30px;
+}
+
+/* tamanho do vídeo selecionado */
+.embed iframe {
+    width: 949px;
+    height: 534px;
+    left: 0;
+    top: 0;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+    .embed iframe {
+        width: 450px;
+        height: 250px;
+
+        left: 0;
+        top: 0;
+    }
+}

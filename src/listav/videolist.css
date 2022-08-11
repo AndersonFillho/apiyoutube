@@ -1,0 +1,17 @@
+/* alinhamento das opções de vídeo */
+.list {
+    display : flex;
+    align-items : flex-end;
+    flex-direction : column;
+}
+
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+    .list {
+        display : flex;
+        justify-content : center;
+        align-items : center;
+        flex-direction : column;
+    }
+}

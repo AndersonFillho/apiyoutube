@@ -1,0 +1,14 @@
+/* posicionamento dos itens */
+.video-item {
+    padding: 30px 40px;
+
+    max-width: 300px;
+
+    cursor: pointer;
+}
+
+/* espaçamento do titulo do vídeo */
+.titulo {
+    padding-top: 8px;
+    line-height: 20px;
+}
